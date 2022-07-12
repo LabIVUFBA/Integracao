@@ -7,12 +7,11 @@ output reg[9:0] x_address;
 output reg[8:0] y_address;
 output reg[7:0] theta;
 output reg write_enable, ready;
-output reg[10:0] address; // endereço de 11 bits = 2048 possíveis valores para representar os 1600 possíveis valores de rho
+output reg signed[10:0] address; // endereço de 11 bits = 2048 possíveis valores para representar os 1600 possíveis valores de rho
 output reg[8:0] current_state, next_state;
 reg[7:0] i;
 output reg[18:0] count_frames; //contagem das 307200 posições da matriz de dados que vão ser recebidos da interface avalon
-//reg[1:0] edge_detection_data [0:9]; // considerando uma matrix 5x2 só pra fins de teste
-reg[1:0] edge_detection_data [0:307199];
+reg edge_detection_data [0:307199];
 
 parameter 
 	idle_state = 9'b000000001,
