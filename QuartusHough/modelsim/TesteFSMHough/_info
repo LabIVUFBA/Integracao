@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Programas/IntelFPGA
+vFSM_Hough
+!s110 1657661167
+!i10b 1
+!s100 RLjg]dRn41VFbd_U2bAj@0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I``N8BbI@J3Ff>ebVk0U>D3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/LABIV/Integracao/QuartusHough/modelsim
+w1657660938
+Z3 8C:/LABIV/Integracao/QuartusHough/FSMHough.v
+Z4 FC:/LABIV/Integracao/QuartusHough/FSMHough.v
+!i122 0
+Z5 L0 2 161
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657661167.000000
+Z7 !s107 C:/LABIV/Integracao/QuartusHough/FSMHough.v|
+Z8 !s90 -reportprogress|300|-work|TesteFSMHough|-stats=none|C:/LABIV/Integracao/QuartusHough/FSMHough.v|
+!i113 1
+Z9 o-work TesteFSMHough
+Z10 tCvgOpt 0
+n@f@s@m_@hough
+vFSMHough
+Z11 !s110 1657661419
+!i10b 1
+!s100 MAh6=Z4G<XbO:lT_ReGS20
+R0
+I2hnNcK:=]ic4i_gTYJ_f:2
+R1
+R2
+w1657661214
+R3
+R4
+!i122 6
+R5
+R6
+r1
+!s85 0
+31
+Z12 !s108 1657661419.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@f@s@m@hough
+vHoughTB
+R11
+!i10b 1
+!s100 N0f^<6]?^n428^W9J9cda3
+R0
+IO4BGn?Jc_b6c:XD534nGK1
+R1
+R2
+w1657661414
+8C:/LABIV/Integracao/QuartusHough/HoughTB.v
+FC:/LABIV/Integracao/QuartusHough/HoughTB.v
+!i122 7
+L0 2 110
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/LABIV/Integracao/QuartusHough/HoughTB.v|
+!s90 -reportprogress|300|-work|TesteFSMHough|-stats=none|C:/LABIV/Integracao/QuartusHough/HoughTB.v|
+!i113 1
+R9
+R10
+n@hough@t@b

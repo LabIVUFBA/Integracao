@@ -1,0 +1,15 @@
+C:/LABIV/Integracao/QuartusHough/HoughTB.v {1 {vlog -work TesteFSMHough -stats=none C:/LABIV/Integracao/QuartusHough/HoughTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HoughTB
+
+Top level modules:
+	HoughTB
+
+} {} {}} C:/LABIV/Integracao/QuartusHough/FSMHough.v {1 {vlog -work TesteFSMHough -stats=none C:/LABIV/Integracao/QuartusHough/FSMHough.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FSMHough
+
+Top level modules:
+	FSMHough
+
+} {} {}}
