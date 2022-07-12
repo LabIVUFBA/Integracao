@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+valtera_up_RGB_to_YCrCb_converter
+Z1 !s110 1657657251
+!i10b 1
+!s100 h:NSo13@Xf8aSAL_EW8Cm0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdgM]RlaTGZE9Pe2z2Dz<V1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1657650768
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_RGB_to_YCrCb_converter.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_RGB_to_YCrCb_converter.v
+!i122 22
+L0 28 495
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1657657251.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_RGB_to_YCrCb_converter.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_RGB_to_YCrCb_converter.v|-work|grayscale_converter|
+!i113 1
+Z7 o-work grayscale_converter
+Z8 tCvgOpt 0
+naltera_up_@r@g@b_to_@y@cr@cb_converter
+valtera_up_YCrCb_to_RGB_converter
+!s110 1657657250
+!i10b 1
+!s100 LjQW;1eK1FfAXo[Q4kQQ>1
+R2
+Iz43VQQ5Qd5gWQoNb@<cfz1
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_YCrCb_to_RGB_converter.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_YCrCb_to_RGB_converter.v
+!i122 21
+L0 28 386
+R5
+r1
+!s85 0
+31
+!s108 1657657250.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_YCrCb_to_RGB_converter.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_YCrCb_to_RGB_converter.v|-work|grayscale_converter|
+!i113 1
+R7
+R8
+naltera_up_@y@cr@cb_to_@r@g@b_converter
+vIntegracaoPlatformDesigner_grayscale_converter
+R1
+!i10b 1
+!s100 I1K;TCM?;5X83am]VG4`<0
+R2
+Ib3NfTP4QMNQACFc<mEUIF2
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_grayscale_converter.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_grayscale_converter.v
+!i122 23
+L0 29 195
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_grayscale_converter.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_grayscale_converter.v|-work|grayscale_converter|
+!i113 1
+R7
+R8
+n@integracao@platform@designer_grayscale_converter

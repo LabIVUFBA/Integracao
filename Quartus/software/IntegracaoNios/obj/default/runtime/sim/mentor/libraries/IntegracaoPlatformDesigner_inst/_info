@@ -1,0 +1,208 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+vIntegracaoPlatformDesigner
+!s110 1657657252
+!i10b 1
+!s100 8;zK@A;LU5N7PhUi;kc2K2
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IO^9IdaAn>FQJY?3S7>fcV1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657650768
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner.v
+!i122 12
+L0 6 663
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657657252.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner.v|-work|IntegracaoPlatformDesigner_inst|
+!i113 1
+Z1 o-work IntegracaoPlatformDesigner_inst
+tCvgOpt 0
+n@integracao@platform@designer
+Eintegracaoplatformdesigner
+Z2 w1657646395
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z6 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner.vhd
+Z7 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner.vhd
+l0
+L9 1
+V47eB;4`ZS^K_E5ESES=Bf3
+!s100 AGXCdX0cRTQG_:7BbDdNT2
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1657647039
+!i10b 1
+Z10 !s108 1657647039.000000
+Z11 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner.vhd|-work|IntegracaoPlatformDesigner_inst|
+Z12 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner.vhd|
+!i113 1
+R1
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R3
+R4
+R5
+DEx4 work 26 integracaoplatformdesigner 0 22 47eB;4`ZS^K_E5ESES=Bf3
+!i122 0
+l672
+L37 1161
+VCe;:2kkTRF8^Jh@Z?0TF^1
+!s100 aKABTY?`zhzk^[?Nf3daA0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R1
+R13
+Eintegracaoplatformdesigner_rst_controller
+R2
+R3
+R4
+R5
+!i122 1
+R0
+Z14 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller.vhd
+Z15 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller.vhd
+l0
+L9 1
+VEafBl=7K>HDUN17Z9]?ZF0
+!s100 VQQM5ScEkzcd_6aR?@dh<1
+R8
+32
+Z16 !s110 1657647040
+!i10b 1
+Z17 !s108 1657647040.000000
+Z18 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller.vhd|-work|IntegracaoPlatformDesigner_inst|
+Z19 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller.vhd|
+!i113 1
+R1
+R13
+Artl
+R3
+R4
+R5
+DEx4 work 41 integracaoplatformdesigner_rst_controller 0 22 EafBl=7K>HDUN17Z9]?ZF0
+!i122 1
+l142
+Z20 L75 135
+VQ?n=NKQfK]<aRCHVV3@Gd3
+!s100 YW64:Fb7`0jTaGiiMYK9k0
+R8
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R1
+R13
+Eintegracaoplatformdesigner_rst_controller_001
+R2
+R3
+R4
+R5
+!i122 2
+R0
+Z21 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller_001.vhd
+Z22 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller_001.vhd
+l0
+L9 1
+V9@DaJhD>Lb?VooPON2ZRC2
+!s100 AM4XLn4i5Zjn`cN^bEY5e0
+R8
+32
+R16
+!i10b 1
+R17
+Z23 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller_001.vhd|-work|IntegracaoPlatformDesigner_inst|
+Z24 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller_001.vhd|
+!i113 1
+R1
+R13
+Artl
+R3
+R4
+R5
+DEx4 work 45 integracaoplatformdesigner_rst_controller_001 0 22 9@DaJhD>Lb?VooPON2ZRC2
+!i122 2
+l142
+R20
+V36dGJKV2Q2DRV1kXo9>:>0
+!s100 InldG>7Go63^jB@<ATlG61
+R8
+32
+R16
+!i10b 1
+R17
+R23
+R24
+!i113 1
+R1
+R13
+Eintegracaoplatformdesigner_rst_controller_002
+R2
+R3
+R4
+R5
+!i122 3
+R0
+Z25 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller_002.vhd
+Z26 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller_002.vhd
+l0
+L9 1
+VneWhT5nHhWbcAkEdhdg@Y0
+!s100 Ln=X1ToEj1^ecF5YjCaG51
+R8
+32
+R16
+!i10b 1
+R17
+Z27 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller_002.vhd|-work|IntegracaoPlatformDesigner_inst|
+Z28 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/integracaoplatformdesigner_rst_controller_002.vhd|
+!i113 1
+R1
+R13
+Artl
+R3
+R4
+R5
+DEx4 work 45 integracaoplatformdesigner_rst_controller_002 0 22 neWhT5nHhWbcAkEdhdg@Y0
+!i122 3
+l142
+R20
+V;eZV6KBXVH=mBaE6=@6fH2
+!s100 Ph5Q@iEgjG=[D@3aWzkX]3
+R8
+32
+R16
+!i10b 1
+R17
+R27
+R28
+!i113 1
+R1
+R13

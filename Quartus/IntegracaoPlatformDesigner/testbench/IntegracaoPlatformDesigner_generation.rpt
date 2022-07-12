@@ -1,0 +1,454 @@
+Info: Starting: Create testbench Platform Designer system
+Info: C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner.ipx
+Info: qsys-generate C:\LABIV\Integracao\Quartus\IntegracaoPlatformDesigner.qsys --testbench=STANDARD --output-directory=C:\LABIV\Integracao\Quartus --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Quartus/IntegracaoPlatformDesigner.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 20.1]
+Progress: Parameterizing module clk
+Progress: Adding dual_clock_buffer [altera_up_avalon_video_dual_clock_buffer 18.0]
+Progress: Parameterizing module dual_clock_buffer
+Progress: Adding edge_detector [altera_up_avalon_video_edge_detection 18.0]
+Progress: Parameterizing module edge_detector
+Progress: Adding grayscale_converter [altera_up_avalon_video_csc 18.0]
+Progress: Parameterizing module grayscale_converter
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding nios [altera_nios2_gen2 20.1]
+Progress: Parameterizing module nios
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding pixel_buffer [altera_up_avalon_video_pixel_buffer_dma 18.0]
+Progress: Parameterizing module pixel_buffer
+Progress: Adding pll_vga [altera_up_avalon_video_pll 18.0]
+Progress: Parameterizing module pll_vga
+Progress: Adding resample_1bit [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module resample_1bit
+Progress: Adding resample_24bit [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module resample_24bit
+Progress: Adding scaler [altera_up_avalon_video_scaler 18.0]
+Progress: Parameterizing module scaler
+Progress: Adding sram [altera_external_memory_bfm 20.1]
+Info: altera_external_memory_bfm: Preferred Simulation Language is set to None.
+Progress: Parameterizing module sram
+Progress: Adding sram_controller [altera_up_avalon_sram 18.0]
+Progress: Parameterizing module sram_controller
+Progress: Adding vga_controller [altera_up_avalon_video_vga_controller 18.0]
+Progress: Parameterizing module vga_controller
+Progress: Adding vga_resample [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module vga_resample
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: IntegracaoPlatformDesigner.grayscale_converter: Colour Space Conversion: 8 (bits) x 3 (planes) (24-bit RGB) -> 8 (bits) x 1 (planes) (Grayscale (Y))
+Info: IntegracaoPlatformDesigner.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: IntegracaoPlatformDesigner.resample_1bit: RGB Resampling: 8 (bits) x 1 (planes) -> 1 (bits) x 1 (planes)
+Info: IntegracaoPlatformDesigner.resample_24bit: RGB Resampling: 16 (bits) x 1 (planes) -> 8 (bits) x 3 (planes)
+Info: IntegracaoPlatformDesigner.scaler: Change in Resolution: 640 x 480 -> 320 x 480
+Info: IntegracaoPlatformDesigner.vga_controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Info: IntegracaoPlatformDesigner.vga_resample: RGB Resampling: 1 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching D:/programas/intelfpga/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index D:\programas\intelfpga\quartus\sopc_builder\bin\root_components.ipx
+Info: D:\programas\intelfpga\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index D:\programas\intelfpga\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: D:\programas\intelfpga\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0,00 seconds
+Info: D:/programas/intelfpga/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0,00 seconds
+Info: C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/ip/**/* matched 0 files in 0,00 seconds
+Info: Reading index C:\LABIV\Integracao\Quartus\IntegracaoPlatformDesigner\testbench\IntegracaoPlatformDesigner.ipx
+Progress: Loading Quartus/IntegracaoPlatformDesigner.qsys
+Info: C:/LABIV/Integracao/Quartus/* matched 11 files in 0,00 seconds
+Info: C:/LABIV/Integracao/Quartus/ip/**/* matched 0 files in 0,00 seconds
+Info: C:/LABIV/Integracao/Quartus/*/* matched 14 files in 0,00 seconds
+Info: C:\LABIV\Integracao\Quartus\IntegracaoPlatformDesigner\testbench\IntegracaoPlatformDesigner.ipx described 0 plugins, 3 paths, in 0,00 seconds
+Progress: Loading testbench/IntegracaoPlatformDesigner_tb.qsys
+Info: C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/* matched 12 files in 0,00 seconds
+Info: C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/*/* matched 9 files in 0,00 seconds
+Info: Reading index C:\Users\andre\.altera.quartus\ip\20.1\ip_search_path\user_components.ipx
+Info: E:/LABIV/TesteMemoVGA/Quartus/TesteSDRAM/**/* matched 0 files in 0,00 seconds
+Info: C:\Users\andre\.altera.quartus\ip\20.1\ip_search_path\user_components.ipx described 0 plugins, 1 paths, in 0,00 seconds
+Info: C:/Users/andre/.altera.quartus/ip/20.1/**/* matched 2 files in 0,00 seconds
+Info: D:/programas/intelfpga/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0,00 seconds
+Info: D:/programas/intelfpga/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0,00 seconds
+Info: D:/programas/intelfpga/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0,00 seconds
+Info: Reading index D:\programas\intelfpga\ip\altera\altera_components.ipx
+Info: D:\programas\intelfpga\ip\altera\altera_components.ipx described 1971 plugins, 0 paths, in 0,07 seconds
+Info: D:/programas/intelfpga/ip/**/* matched 109 files in 0,07 seconds
+Info: D:/programas/ip/**/* matched 0 files in 0,00 seconds
+Info: Reading index D:\programas\intelfpga\quartus\sopc_builder\builtin.ipx
+Info: D:\programas\intelfpga\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0,00 seconds
+Info: D:/programas/intelfpga/quartus/sopc_builder/**/* matched 8 files in 0,00 seconds
+Info: D:/programas/intelfpga/quartus/common/librarian/factories/**/* matched 0 files in 0,00 seconds
+Info: D:/programas/intelfpga/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0,00 seconds
+Info: D:\programas\intelfpga\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0,08 seconds
+Info: D:/programas/intelfpga/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0,08 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script D:/programas/intelfpga/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: IntegracaoPlatformDesigner
+Info: TB_Gen: System design is: IntegracaoPlatformDesigner
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk CLASS_NAME
+Info: get_instance_assignment clk testbench.partner.map.clk_in
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk CLASS_NAME
+Info: get_instance_assignment clk testbench.partner.map.clk_in_reset
+Info: get_interface_property sram_conduit EXPORT_OF
+Info: get_instance_property sram CLASS_NAME
+Info: get_instance_assignment sram testbench.partner.map.conduit
+Info: get_interface_property sram_controller_conduit EXPORT_OF
+Info: get_instance_property sram_controller CLASS_NAME
+Info: get_instance_assignment sram_controller testbench.partner.map.external_interface
+Info: get_interface_property vga_conduit EXPORT_OF
+Info: get_instance_property vga_controller CLASS_NAME
+Info: get_instance_assignment vga_controller testbench.partner.map.external_interface
+Info: send_message Info TB_Gen: Creating testbench system : IntegracaoPlatformDesigner_tb with all standard BFMs
+Info: TB_Gen: Creating testbench system : IntegracaoPlatformDesigner_tb with all standard BFMs
+Info: create_system IntegracaoPlatformDesigner_tb
+Info: add_instance IntegracaoPlatformDesigner_inst IntegracaoPlatformDesigner 
+Info: set_use_testbench_naming_pattern true IntegracaoPlatformDesigner
+Info: get_instance_interfaces IntegracaoPlatformDesigner_inst
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst clk CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst reset CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst sram_conduit CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst sram_controller_conduit CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst vga_conduit CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst clk CLASS_NAME
+Info: add_instance IntegracaoPlatformDesigner_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property IntegracaoPlatformDesigner_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value IntegracaoPlatformDesigner_inst clk clockRate
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property IntegracaoPlatformDesigner_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst clk CLASS_NAME
+Info: get_instance_interfaces IntegracaoPlatformDesigner_inst_clk_bfm
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_clk_bfm clk CLASS_NAME
+Info: add_connection IntegracaoPlatformDesigner_inst_clk_bfm.clk IntegracaoPlatformDesigner_inst.clk
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst reset CLASS_NAME
+Info: add_instance IntegracaoPlatformDesigner_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property IntegracaoPlatformDesigner_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports IntegracaoPlatformDesigner_inst reset
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property IntegracaoPlatformDesigner_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces IntegracaoPlatformDesigner_inst_reset_bfm
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property IntegracaoPlatformDesigner_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value IntegracaoPlatformDesigner_inst reset associatedClock
+Info: get_instance_interfaces IntegracaoPlatformDesigner_inst_clk_bfm
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: IntegracaoPlatformDesigner_inst_reset_bfm is not associated to any clock; connecting IntegracaoPlatformDesigner_inst_reset_bfm to 'IntegracaoPlatformDesigner_inst_clk_bfm.clk'
+Warning: TB_Gen: IntegracaoPlatformDesigner_inst_reset_bfm is not associated to any clock; connecting IntegracaoPlatformDesigner_inst_reset_bfm to 'IntegracaoPlatformDesigner_inst_clk_bfm.clk'
+Info: add_connection IntegracaoPlatformDesigner_inst_clk_bfm.clk IntegracaoPlatformDesigner_inst_reset_bfm.clk
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst reset CLASS_NAME
+Info: get_instance_interfaces IntegracaoPlatformDesigner_inst_reset_bfm
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_reset_bfm reset CLASS_NAME
+Info: add_connection IntegracaoPlatformDesigner_inst_reset_bfm.reset IntegracaoPlatformDesigner_inst.reset
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst sram_conduit CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: sram_conduit
+Info: TB_Gen: conduit_end found: sram_conduit
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst sram_conduit CLASS_NAME
+Info: add_instance IntegracaoPlatformDesigner_inst_sram_conduit_bfm altera_conduit_bfm 
+Info: get_instance_property IntegracaoPlatformDesigner_inst_sram_conduit_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value IntegracaoPlatformDesigner_inst sram_conduit associatedClock
+Info: get_instance_interface_parameter_value IntegracaoPlatformDesigner_inst sram_conduit associatedReset
+Info: get_instance_interface_ports IntegracaoPlatformDesigner_inst sram_conduit
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_address ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_address WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_address DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_byteenable ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_byteenable WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_byteenable DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_chipselect ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_chipselect WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_chipselect DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_data_io ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_data_io WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_data_io DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_outputenable ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_outputenable WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_outputenable DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_write ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_write WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_conduit sram_conduit_cdt_write DIRECTION
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_conduit_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_conduit_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_conduit_bfm SIGNAL_ROLES cdt_address cdt_byteenable cdt_chipselect cdt_data_io cdt_outputenable cdt_write
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_conduit_bfm SIGNAL_WIDTHS 20 2 1 16 1 1
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_conduit_bfm SIGNAL_DIRECTIONS output output output bidir output output
+Info: get_instance_property IntegracaoPlatformDesigner_inst_sram_conduit_bfm CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst sram_conduit CLASS_NAME
+Info: get_instance_interfaces IntegracaoPlatformDesigner_inst_sram_conduit_bfm
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_sram_conduit_bfm conduit CLASS_NAME
+Info: add_connection IntegracaoPlatformDesigner_inst_sram_conduit_bfm.conduit IntegracaoPlatformDesigner_inst.sram_conduit
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst sram_controller_conduit CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: sram_controller_conduit
+Info: TB_Gen: conduit_end found: sram_controller_conduit
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst sram_controller_conduit CLASS_NAME
+Info: add_instance IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm altera_conduit_bfm 
+Info: get_instance_property IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value IntegracaoPlatformDesigner_inst sram_controller_conduit associatedClock
+Info: get_instance_interface_parameter_value IntegracaoPlatformDesigner_inst sram_controller_conduit associatedReset
+Info: get_instance_interface_ports IntegracaoPlatformDesigner_inst sram_controller_conduit
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_ADDR ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_ADDR WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_ADDR DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_CE_N ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_CE_N WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_CE_N DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_DQ ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_DQ WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_DQ DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_LB_N ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_LB_N WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_LB_N DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_OE_N ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_OE_N WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_OE_N DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_UB_N ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_UB_N WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_UB_N DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_WE_N ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_WE_N WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst sram_controller_conduit sram_controller_conduit_WE_N DIRECTION
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm SIGNAL_ROLES ADDR CE_N DQ LB_N OE_N UB_N WE_N
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm SIGNAL_WIDTHS 20 1 16 1 1 1 1
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm SIGNAL_DIRECTIONS input input bidir input input input input
+Info: get_instance_property IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst sram_controller_conduit CLASS_NAME
+Info: get_instance_interfaces IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm conduit CLASS_NAME
+Info: add_connection IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm.conduit IntegracaoPlatformDesigner_inst.sram_controller_conduit
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst vga_conduit CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: vga_conduit
+Info: TB_Gen: conduit_end found: vga_conduit
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst vga_conduit CLASS_NAME
+Info: add_instance IntegracaoPlatformDesigner_inst_vga_conduit_bfm altera_conduit_bfm 
+Info: get_instance_property IntegracaoPlatformDesigner_inst_vga_conduit_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value IntegracaoPlatformDesigner_inst vga_conduit associatedClock
+Info: get_instance_interface_parameter_value IntegracaoPlatformDesigner_inst vga_conduit associatedReset
+Info: get_instance_interface_ports IntegracaoPlatformDesigner_inst vga_conduit
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_B ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_B WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_B DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_BLANK ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_BLANK WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_BLANK DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_CLK ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_CLK WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_CLK DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_G ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_G WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_G DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_HS ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_HS WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_HS DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_R ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_R WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_R DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_SYNC ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_SYNC WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_SYNC DIRECTION
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_VS ROLE
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_VS WIDTH
+Info: get_instance_interface_port_property IntegracaoPlatformDesigner_inst vga_conduit vga_conduit_VS DIRECTION
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_vga_conduit_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_vga_conduit_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_vga_conduit_bfm SIGNAL_ROLES B BLANK CLK G HS R SYNC VS
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_vga_conduit_bfm SIGNAL_WIDTHS 8 1 1 8 1 8 1 1
+Info: set_instance_parameter_value IntegracaoPlatformDesigner_inst_vga_conduit_bfm SIGNAL_DIRECTIONS input input input input input input input input
+Info: get_instance_property IntegracaoPlatformDesigner_inst_vga_conduit_bfm CLASS_NAME
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst vga_conduit CLASS_NAME
+Info: get_instance_interfaces IntegracaoPlatformDesigner_inst_vga_conduit_bfm
+Info: get_instance_interface_property IntegracaoPlatformDesigner_inst_vga_conduit_bfm conduit CLASS_NAME
+Info: add_connection IntegracaoPlatformDesigner_inst_vga_conduit_bfm.conduit IntegracaoPlatformDesigner_inst.vga_conduit
+Info: send_message Info TB_Gen: Saving testbench system: IntegracaoPlatformDesigner_tb.qsys
+Info: TB_Gen: Saving testbench system: IntegracaoPlatformDesigner_tb.qsys
+Info: save_system IntegracaoPlatformDesigner_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb.qsys
+Info: Done
+Info: qsys-generate C:\LABIV\Integracao\Quartus\IntegracaoPlatformDesigner.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=STANDARD --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=C:\LABIV\Integracao\Quartus\IntegracaoPlatformDesigner\testbench\IntegracaoPlatformDesigner_tb\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading testbench/IntegracaoPlatformDesigner_tb.qsys
+Progress: Reading input file
+Progress: Adding IntegracaoPlatformDesigner_inst [IntegracaoPlatformDesigner 1.0]
+Progress: Parameterizing module IntegracaoPlatformDesigner_inst
+Progress: Adding IntegracaoPlatformDesigner_inst_clk_bfm [altera_avalon_clock_source 20.1]
+Progress: Parameterizing module IntegracaoPlatformDesigner_inst_clk_bfm
+Progress: Adding IntegracaoPlatformDesigner_inst_reset_bfm [altera_avalon_reset_source 20.1]
+Progress: Parameterizing module IntegracaoPlatformDesigner_inst_reset_bfm
+Progress: Adding IntegracaoPlatformDesigner_inst_sram_conduit_bfm [altera_conduit_bfm 20.1]
+Progress: Parameterizing module IntegracaoPlatformDesigner_inst_sram_conduit_bfm
+Progress: Adding IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm [altera_conduit_bfm 20.1]
+Progress: Parameterizing module IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm
+Progress: Adding IntegracaoPlatformDesigner_inst_vga_conduit_bfm [altera_conduit_bfm 20.1]
+Progress: Parameterizing module IntegracaoPlatformDesigner_inst_vga_conduit_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst.grayscale_converter: Colour Space Conversion: 8 (bits) x 3 (planes) (24-bit RGB) -> 8 (bits) x 1 (planes) (Grayscale (Y))
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst.resample_1bit: RGB Resampling: 8 (bits) x 1 (planes) -> 1 (bits) x 1 (planes)
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst.resample_24bit: RGB Resampling: 16 (bits) x 1 (planes) -> 8 (bits) x 3 (planes)
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst.scaler: Change in Resolution: 640 x 480 -> 320 x 480
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst.vga_controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst.vga_resample: RGB Resampling: 1 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst_clk_bfm: Elaborate: altera_clock_source
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst_clk_bfm:            $Revision: #1 $
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst_clk_bfm:            $Date: 2019/10/06 $
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst_reset_bfm: Elaborate: altera_reset_source
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst_reset_bfm:            $Revision: #1 $
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst_reset_bfm:            $Date: 2019/10/06 $
+Info: IntegracaoPlatformDesigner_tb.IntegracaoPlatformDesigner_inst_reset_bfm: Reset is negatively asserted.
+Info: IntegracaoPlatformDesigner_tb: Generating IntegracaoPlatformDesigner_tb "IntegracaoPlatformDesigner_tb" for SIM_VERILOG
+Info: IntegracaoPlatformDesigner_inst: "IntegracaoPlatformDesigner_tb" instantiated IntegracaoPlatformDesigner "IntegracaoPlatformDesigner_inst"
+Info: IntegracaoPlatformDesigner_inst_clk_bfm: "IntegracaoPlatformDesigner_tb" instantiated altera_avalon_clock_source "IntegracaoPlatformDesigner_inst_clk_bfm"
+Info: IntegracaoPlatformDesigner_inst_reset_bfm: "IntegracaoPlatformDesigner_tb" instantiated altera_avalon_reset_source "IntegracaoPlatformDesigner_inst_reset_bfm"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/verbosity_pkg.sv
+Info: IntegracaoPlatformDesigner_inst_sram_conduit_bfm: "IntegracaoPlatformDesigner_tb" instantiated altera_conduit_bfm "IntegracaoPlatformDesigner_inst_sram_conduit_bfm"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/verbosity_pkg.sv
+Info: IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm: "IntegracaoPlatformDesigner_tb" instantiated altera_conduit_bfm "IntegracaoPlatformDesigner_inst_sram_controller_conduit_bfm"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/verbosity_pkg.sv
+Info: IntegracaoPlatformDesigner_inst_vga_conduit_bfm: "IntegracaoPlatformDesigner_tb" instantiated altera_conduit_bfm "IntegracaoPlatformDesigner_inst_vga_conduit_bfm"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/verbosity_pkg.sv
+Info: dual_clock_buffer: Starting Generation of the Dual Clock Buffer
+Info: dual_clock_buffer: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_dual_clock_buffer "dual_clock_buffer"
+Info: edge_detector: Starting Generation of Video In Edge Detection
+Info: edge_detector: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_edge_detection "edge_detector"
+Info: grayscale_converter: Starting Generation of Colour Space Converter
+Info: grayscale_converter: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_csc "grayscale_converter"
+Info: jtag_uart: Starting RTL generation for module 'IntegracaoPlatformDesigner_jtag_uart'
+Info: jtag_uart:   Generation command is [exec D:/programas/intelfpga/quartus/bin64/perl/bin/perl.exe -I D:/programas/intelfpga/quartus/bin64/perl/lib -I D:/programas/intelfpga/quartus/sopc_builder/bin/europa -I D:/programas/intelfpga/quartus/sopc_builder/bin -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/common -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=IntegracaoPlatformDesigner_jtag_uart --dir=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0168_jtag_uart_gen/ --quartus_dir=D:/programas/intelfpga/quartus --verilog --config=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0168_jtag_uart_gen//IntegracaoPlatformDesigner_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0168_jtag_uart_gen/  ]
+Info: jtag_uart: Done RTL generation for module 'IntegracaoPlatformDesigner_jtag_uart'
+Info: jtag_uart: "IntegracaoPlatformDesigner_inst" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: nios: "IntegracaoPlatformDesigner_inst" instantiated altera_nios2_gen2 "nios"
+Info: onchip_memory: Starting RTL generation for module 'IntegracaoPlatformDesigner_onchip_memory'
+Info: onchip_memory:   Generation command is [exec D:/programas/intelfpga/quartus/bin64/perl/bin/perl.exe -I D:/programas/intelfpga/quartus/bin64/perl/lib -I D:/programas/intelfpga/quartus/sopc_builder/bin/europa -I D:/programas/intelfpga/quartus/sopc_builder/bin -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/common -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=IntegracaoPlatformDesigner_onchip_memory --dir=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0169_onchip_memory_gen/ --quartus_dir=D:/programas/intelfpga/quartus --verilog --config=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0169_onchip_memory_gen//IntegracaoPlatformDesigner_onchip_memory_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0169_onchip_memory_gen/  ]
+Info: onchip_memory: Done RTL generation for module 'IntegracaoPlatformDesigner_onchip_memory'
+Info: onchip_memory: "IntegracaoPlatformDesigner_inst" instantiated altera_avalon_onchip_memory2 "onchip_memory"
+Info: pixel_buffer: Starting Generation of VGA Pixel Buffer
+Info: pixel_buffer: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_pixel_buffer_dma "pixel_buffer"
+Info: pll_vga: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_pll "pll_vga"
+Info: resample_1bit: Starting Generation of Video RGB Resampler
+Info: resample_1bit: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_rgb_resampler "resample_1bit"
+Info: resample_24bit: Starting Generation of Video RGB Resampler
+Info: resample_24bit: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_rgb_resampler "resample_24bit"
+Info: scaler: Starting Generation of Video Scaler
+Info: scaler: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_scaler "scaler"
+Warning: sram: get_parameter_value: Getting the value of INIT_FILE from generate2 callback may cause errors (as AFFECTS_GENERATION is false for this parameter)
+Info: sram: "IntegracaoPlatformDesigner_inst" instantiated altera_external_memory_bfm "sram"
+Info: sram_controller: Starting Generation of the SRAM Controller
+Info: sram_controller: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_sram "sram_controller"
+Info: vga_controller: Starting Generation of VGA Controller
+Info: vga_controller: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_vga_controller "vga_controller"
+Info: vga_resample: Starting Generation of Video RGB Resampler
+Info: vga_resample: "IntegracaoPlatformDesigner_inst" instantiated altera_up_avalon_video_rgb_resampler "vga_resample"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "IntegracaoPlatformDesigner_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "IntegracaoPlatformDesigner_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "IntegracaoPlatformDesigner_inst" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'IntegracaoPlatformDesigner_nios_cpu'
+Info: cpu:   Generation command is [exec D:/Programas/IntelFPGA/quartus/bin64//perl/bin/perl.exe -I D:/Programas/IntelFPGA/quartus/bin64//perl/lib -I D:/programas/intelfpga/quartus/sopc_builder/bin/europa -I D:/programas/intelfpga/quartus/sopc_builder/bin -I D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=IntegracaoPlatformDesigner_nios_cpu --dir=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0180_cpu_gen/ --quartus_bindir=D:/Programas/IntelFPGA/quartus/bin64/ --verilog --config=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0180_cpu_gen//IntegracaoPlatformDesigner_nios_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0180_cpu_gen/  ]
+Info: cpu: # 2022.07.12 15:32:57 (*) Starting Nios II generation
+Info: cpu: # 2022.07.12 15:32:57 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.07.12 15:32:57 (*)   Creating all objects for CPU
+Info: cpu: # 2022.07.12 15:32:58 (*)   Creating 'C:/Users/andre/AppData/Local/Temp/alt9185_2259318345596637573.dir/0180_cpu_gen//IntegracaoPlatformDesigner_nios_cpu_nios2_waves.do'
+Info: cpu: # 2022.07.12 15:32:58 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.07.12 15:32:58 (*)   Creating plain-text RTL
+Info: cpu: # 2022.07.12 15:32:58 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'IntegracaoPlatformDesigner_nios_cpu'
+Info: cpu: "nios" instantiated altera_nios2_gen2_unit "cpu"
+Info: video_pll: "pll_vga" instantiated altera_up_altpll "video_pll"
+Info: reset_from_locked: "pll_vga" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: pixel_buffer_avalon_pixel_dma_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "pixel_buffer_avalon_pixel_dma_master_translator"
+Info: sram_controller_avalon_sram_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "sram_controller_avalon_sram_slave_translator"
+Info: pixel_buffer_avalon_pixel_dma_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "pixel_buffer_avalon_pixel_dma_master_agent"
+Info: sram_controller_avalon_sram_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "sram_controller_avalon_sram_slave_agent"
+Info: sram_controller_avalon_sram_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "sram_controller_avalon_sram_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_009: "mm_interconnect_0" instantiated altera_merlin_router "router_009"
+Info: router_010: "mm_interconnect_0" instantiated altera_merlin_router "router_010"
+Info: sram_controller_avalon_sram_slave_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sram_controller_avalon_sram_slave_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_002"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_006: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_006"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_007: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_007"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_demux_006: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_006"
+Info: rsp_demux_007: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_007"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_002"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: nios_data_master_to_sram_controller_avalon_sram_slave_cmd_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "nios_data_master_to_sram_controller_avalon_sram_slave_cmd_width_adapter"
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: IntegracaoPlatformDesigner_tb: Done "IntegracaoPlatformDesigner_tb" with 60 modules, 103 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd=C:\LABIV\Integracao\Quartus\IntegracaoPlatformDesigner_tb.spd --output-directory=C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\LABIV\Integracao\Quartus\IntegracaoPlatformDesigner_tb.spd --output-directory=C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	59 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create testbench Platform Designer system

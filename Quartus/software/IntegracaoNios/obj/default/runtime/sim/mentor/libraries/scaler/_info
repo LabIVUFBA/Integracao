@@ -1,0 +1,104 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+valtera_up_video_scaler_multiply_height
+Z1 !s110 1657657250
+!i10b 1
+!s100 7=2k2gD_l7aU56U0B`M413
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=>@@J:W:S7VEhl2oDLOz]1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1657650770
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_multiply_height.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_multiply_height.v
+!i122 38
+L0 28 283
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1657657249.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_multiply_height.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_multiply_height.v|-work|scaler|
+!i113 1
+Z7 o-work scaler
+Z8 tCvgOpt 0
+valtera_up_video_scaler_multiply_width
+Z9 !s110 1657657249
+!i10b 1
+!s100 S^eeLcLOIf8ef>z<NMPXN3
+R2
+I5`6T;P_Ho52H:1Q<ccFTI1
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_multiply_width.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_multiply_width.v
+!i122 37
+L0 28 166
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_multiply_width.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_multiply_width.v|-work|scaler|
+!i113 1
+R7
+R8
+valtera_up_video_scaler_shrink
+R9
+!i10b 1
+!s100 OYYLLz8f_:QY[3aW7oF1o0
+R2
+I9gKk;;8kIdBFhNHlj8A_00
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_shrink.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_shrink.v
+!i122 36
+L0 28 233
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_shrink.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_video_scaler_shrink.v|-work|scaler|
+!i113 1
+R7
+R8
+vIntegracaoPlatformDesigner_scaler
+R1
+!i10b 1
+!s100 36A3V^imLZiEW2mz55W^]3
+R2
+I95?ZA`=jhQ2F0[jY`cCZj2
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_scaler.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_scaler.v
+!i122 39
+L0 28 162
+R5
+r1
+!s85 0
+31
+!s108 1657657250.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_scaler.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_scaler.v|-work|scaler|
+!i113 1
+R7
+R8
+n@integracao@platform@designer_scaler

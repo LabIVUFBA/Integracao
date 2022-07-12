@@ -1,0 +1,183 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+valtera_external_memory_bfm
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1657657249
+!i10b 1
+!s100 A@bJUYTX659552A7V=YWI3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IaoLiAdOTnzfPKVG1H=DoE0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1657650770
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm.sv
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm.sv
+!i122 13
+L0 31 412
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657657249.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm.sv|
+!s90 -reportprogress|300|-sv|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm.sv|-L|altera_common_sv_packages|-work|sram|
+!i113 1
+o-sv -L altera_common_sv_packages -work sram
+Z4 tCvgOpt 0
+Ealtera_external_memory_bfm_vhdl
+Z5 w1657646397
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx4 work 35 altera_external_memory_bfm_vhdl_pkg 0 22 ?B_h]GiWjL<=^8:@iY?Xg3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z10 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm_vhdl.vhd
+Z11 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm_vhdl.vhd
+l0
+L21 1
+VlgzgZ[SAI55bMCQobjEh>2
+!s100 UWgAV]<HjdmI<3bUe7]iY2
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1657647038
+!i10b 1
+Z14 !s108 1657647038.000000
+Z15 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm_vhdl.vhd|-work|sram|
+Z16 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm_vhdl.vhd|
+!i113 1
+Z17 o-work sram
+Z18 tExplicit 1 CvgOpt 0
+Aext_memory_bfm_vhdl_a
+R6
+R7
+R8
+R9
+DEx4 work 31 altera_external_memory_bfm_vhdl 0 22 lgzgZ[SAI55bMCQobjEh>2
+!i122 3
+l120
+L57 123
+V9YjZa9hKali=91[nSTJN92
+!s100 4k1;<6h6jon`^bjkTHjz41
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Paltera_external_memory_bfm_vhdl_pkg
+R6
+R8
+R9
+!i122 2
+R5
+R0
+Z19 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm_vhdl_pkg.vhd
+Z20 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm_vhdl_pkg.vhd
+l0
+L22 1
+V?B_h]GiWjL<=^8:@iY?Xg3
+!s100 8]^S7C:olkzLWkY@@dRM^2
+R12
+32
+b1
+R13
+!i10b 1
+R14
+Z21 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm_vhdl_pkg.vhd|-work|sram|
+Z22 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_external_memory_bfm_vhdl_pkg.vhd|
+!i113 1
+R17
+R18
+Bbody
+R7
+R6
+R8
+R9
+!i122 2
+l0
+L136 1
+VMX4zEnGGW^m@XmGj=bWIQ3
+!s100 4O8CW>MzK5=Nc<SY4_>`O1
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 1
+R17
+R18
+vM4COxF6Sk/ObTMSS0ENGSTujAyM+KIxkbf1CIgoprZIE3elawH8AJhSoeweD5gw2
+R1
+DXx4 work 47 altera_external_memory_bfm_vhdl_wrapper_sv_unit 0 22 _e=J8VPcaAV53Og<8a;O>2
+R13
+R2
+r1
+!s85 0
+!i10b 0
+!s100 VNM1hG36?DS7`3i67DQGD2
+IUz7UzHEo>2D;VMcSV5T?h1
+!i119 1
+!i8a 1929725008
+!s105 altera_external_memory_bfm_vhdl_wrapper_sv_unit
+S1
+R0
+w1657647038
+Z23 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/mentor/altera_external_memory_bfm_vhdl_wrapper.sv
+Z24 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/mentor/altera_external_memory_bfm_vhdl_wrapper.sv
+!i122 1
+L0 38 1
+R3
+31
+Z25 !s108 1657647037.000000
+Z26 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/mentor/altera_external_memory_bfm_vhdl_wrapper.sv|
+Z27 !s90 -reportprogress|300|-sv|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/mentor/altera_external_memory_bfm_vhdl_wrapper.sv|-work|sram|
+!i113 1
+Z28 o-sv -work sram
+R4
+n4f46c42
+XTeO+6KKhzPil7oiC8PEtIuz2HqXqgOJsdPh0XeGYKqDkEDCoDH1BN7Dd/kXlTGcl
+R1
+R13
+V_e=J8VPcaAV53Og<8a;O>2
+r1
+!s85 0
+!i10b 0
+!s100 UXLJ3>=WU>d3@M1W[8?AA3
+I_e=J8VPcaAV53Og<8a;O>2
+!i103 1
+!i119 1
+!i8a 1019502832
+S1
+R0
+R5
+R23
+R24
+!i122 1
+L0 38 0
+R3
+31
+R25
+R26
+R27
+!i113 1
+R28
+R4
+neeb0194

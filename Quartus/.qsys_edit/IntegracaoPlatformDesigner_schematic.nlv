@@ -1,0 +1,42 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst IntegracaoPlatformDesigner.vga_controller -pg 1 -lvl 9 -y 250
+preplace inst IntegracaoPlatformDesigner.sram -pg 1 -lvl 9 -y 530
+preplace inst IntegracaoPlatformDesigner.pll_vga.reset_from_locked -pg 1
+preplace inst IntegracaoPlatformDesigner -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst IntegracaoPlatformDesigner.pixel_buffer -pg 1 -lvl 2 -y 240
+preplace inst IntegracaoPlatformDesigner.onchip_memory -pg 1 -lvl 9 -y 450
+preplace inst IntegracaoPlatformDesigner.video_rgb_resampler_0 -pg 1 -lvl 6 -y 30
+preplace inst IntegracaoPlatformDesigner.nios.clock_bridge -pg 1
+preplace inst IntegracaoPlatformDesigner.dual_clock_buffer -pg 1 -lvl 8 -y 50
+preplace inst IntegracaoPlatformDesigner.timer_0 -pg 1 -lvl 9 -y 150
+preplace inst IntegracaoPlatformDesigner.nios -pg 1 -lvl 3 -y 90
+preplace inst IntegracaoPlatformDesigner.video_edge_detection_0 -pg 1 -lvl 5 -y 30
+preplace inst IntegracaoPlatformDesigner.pll_vga -pg 1 -lvl 7 -y 260
+preplace inst IntegracaoPlatformDesigner.jtag_uart -pg 1 -lvl 9 -y 50
+preplace inst IntegracaoPlatformDesigner.video_scaler_0 -pg 1 -lvl 7 -y 50
+preplace inst IntegracaoPlatformDesigner.nios.reset_bridge -pg 1
+preplace inst IntegracaoPlatformDesigner.rgb_resampler -pg 1 -lvl 4 -y 220
+preplace inst IntegracaoPlatformDesigner.pll_vga.video_pll -pg 1
+preplace inst IntegracaoPlatformDesigner.nios.cpu -pg 1
+preplace inst IntegracaoPlatformDesigner.sram_controller -pg 1 -lvl 9 -y 350
+preplace inst IntegracaoPlatformDesigner.clk -pg 1 -lvl 1 -y 200
+preplace netloc POINT_TO_POINT<net_container>IntegracaoPlatformDesigner</net_container>(MASTER)rgb_resampler.avalon_rgb_source,(SLAVE)video_edge_detection_0.avalon_edge_detection_sink) 1 4 1 1480
+preplace netloc FAN_OUT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)pll_vga.ref_clk,(SLAVE)nios.clk,(SLAVE)dual_clock_buffer.clock_stream_in,(SLAVE)jtag_uart.clk,(SLAVE)rgb_resampler.clk,(SLAVE)video_edge_detection_0.clk,(MASTER)clk.clk,(SLAVE)video_scaler_0.clk,(SLAVE)pixel_buffer.clk,(SLAVE)timer_0.clk,(SLAVE)sram_controller.clk,(SLAVE)video_rgb_resampler_0.clk,(SLAVE)onchip_memory.clk1,(SLAVE)sram.clk) 1 1 8 380 190 740 290 1200 120 1500 120 1840 140 2120 140 2450 200 2780
+preplace netloc EXPORT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)IntegracaoPlatformDesigner.clk,(SLAVE)clk.clk_in) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)dual_clock_buffer.reset_stream_out,(SLAVE)rgb_resampler.reset,(SLAVE)video_edge_detection_0.reset,(SLAVE)onchip_memory.reset1,(MASTER)clk.clk_reset,(SLAVE)timer_0.reset,(SLAVE)pll_vga.ref_reset,(SLAVE)dual_clock_buffer.reset_stream_in,(SLAVE)sram_controller.reset,(SLAVE)jtag_uart.reset,(SLAVE)video_rgb_resampler_0.reset,(SLAVE)nios.reset,(MASTER)nios.debug_reset_request,(SLAVE)video_scaler_0.reset,(SLAVE)pixel_buffer.reset) 1 1 8 360 230 780 230 1160 140 1520 140 1820 160 2140 220 2470 220 2800
+preplace netloc POINT_TO_POINT<net_container>IntegracaoPlatformDesigner</net_container>(MASTER)dual_clock_buffer.avalon_dc_buffer_source,(SLAVE)vga_controller.avalon_vga_sink) 1 8 1 2840
+preplace netloc POINT_TO_POINT<net_container>IntegracaoPlatformDesigner</net_container>(MASTER)video_rgb_resampler_0.avalon_rgb_source,(SLAVE)video_scaler_0.avalon_scaler_sink) 1 6 1 N
+preplace netloc FAN_OUT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)timer_0.irq,(SLAVE)jtag_uart.irq,(MASTER)nios.irq) 1 3 6 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 2860
+preplace netloc FAN_OUT<net_container>IntegracaoPlatformDesigner</net_container>(MASTER)pll_vga.vga_clk,(SLAVE)dual_clock_buffer.clock_stream_out,(SLAVE)vga_controller.clk) 1 7 2 2430 280 NJ
+preplace netloc EXPORT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)IntegracaoPlatformDesigner.vga_conduit,(SLAVE)vga_controller.external_interface) 1 0 9 NJ 340 NJ 340 NJ 340 NJ 340 NJ 340 NJ 340 NJ 340 NJ 340 NJ
+preplace netloc EXPORT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)IntegracaoPlatformDesigner.sram_conduit,(SLAVE)sram.conduit) 1 0 9 NJ 560 NJ 560 NJ 560 NJ 560 NJ 560 NJ 560 NJ 560 NJ 560 NJ
+preplace netloc EXPORT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)IntegracaoPlatformDesigner.sram_controller_conduit,(SLAVE)sram_controller.external_interface) 1 0 9 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ
+preplace netloc POINT_TO_POINT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)rgb_resampler.avalon_rgb_sink,(MASTER)pixel_buffer.avalon_pixel_source) 1 2 2 N 270 NJ
+preplace netloc INTERCONNECT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)sram_controller.avalon_sram_slave,(SLAVE)video_rgb_resampler_0.avalon_rgb_slave,(SLAVE)rgb_resampler.avalon_rgb_slave,(MASTER)nios.data_master,(SLAVE)jtag_uart.avalon_jtag_slave,(MASTER)nios.instruction_master,(SLAVE)nios.debug_mem_slave,(MASTER)pixel_buffer.avalon_pixel_dma_master,(SLAVE)timer_0.s1,(SLAVE)onchip_memory.s1,(SLAVE)pixel_buffer.avalon_control_slave) 1 1 8 400 210 760 250 1140 160 NJ 160 1800 200 NJ 200 NJ 240 2820
+preplace netloc EXPORT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)clk.clk_in_reset,(SLAVE)IntegracaoPlatformDesigner.reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)vga_controller.reset,(MASTER)pll_vga.reset_source) 1 7 2 2410 320 NJ
+preplace netloc POINT_TO_POINT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)dual_clock_buffer.avalon_dc_buffer_sink,(MASTER)video_scaler_0.avalon_scaler_source) 1 7 1 2430
+preplace netloc POINT_TO_POINT<net_container>IntegracaoPlatformDesigner</net_container>(SLAVE)video_rgb_resampler_0.avalon_rgb_sink,(MASTER)video_edge_detection_0.avalon_edge_detection_source) 1 5 1 1780
+levelinfo -pg 1 0 150 3060
+levelinfo -hier IntegracaoPlatformDesigner 160 190 430 900 1230 1550 1870 2220 2500 2900 3050

@@ -1,0 +1,87 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+Eintegracaoplatformdesigner_onchip_memory
+Z1 w1657646397
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 ^:alB2MJEEXl;OOBQIDHY2
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DPx6 altera 25 altera_europa_support_lib 0 22 5o:bO7N_EO8==El25L[7@1
+!i122 0
+R0
+Z9 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_onchip_memory.vhd
+Z10 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_onchip_memory.vhd
+l0
+L29 1
+VoBER4SbFW5JegV<F8F8c:2
+!s100 S>PB[^MN`_c0Lz1X1]o2`3
+Z11 OV;C;2020.1;71
+32
+Z12 !s110 1657647038
+!i10b 1
+Z13 !s108 1657647038.000000
+Z14 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_onchip_memory.vhd|-work|onchip_memory|
+Z15 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_onchip_memory.vhd|
+!i113 1
+Z16 o-work onchip_memory
+Z17 tExplicit 1 CvgOpt 0
+Aeuropa
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 40 integracaoplatformdesigner_onchip_memory 0 22 oBER4SbFW5JegV<F8F8c:2
+!i122 0
+l83
+L52 67
+V4FB^6b0[kd`aeT37bN2iK0
+!s100 mREN75lk61>go<eCbFFJ00
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+vIntegracaoPlatformDesigner_onchip_memory
+!s110 1657657250
+!i10b 1
+!s100 W7bNA6==GoAX3zf:T:kCe0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IPJg^:EQ:obgiU5<e2kklQ0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657650769
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_onchip_memory.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_onchip_memory.v
+!i122 10
+L0 21 68
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657657250.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_onchip_memory.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_onchip_memory.v|-work|onchip_memory|
+!i113 1
+R16
+tCvgOpt 0
+n@integracao@platform@designer_onchip_memory

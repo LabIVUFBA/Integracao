@@ -1,0 +1,173 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+valtera_up_edge_detection_data_shift_register
+Z1 !s110 1657657251
+!i10b 1
+!s100 a9z6BJ1VXDNa64?Bh_m333
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IV1TigM6F@^UA?e>HJnE0F0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1657650768
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_data_shift_register.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_data_shift_register.v
+!i122 64
+L0 52 35
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1657657251.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_data_shift_register.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_data_shift_register.v|-work|edge_detector|
+!i113 1
+Z7 o-work edge_detector
+Z8 tCvgOpt 0
+valtera_up_edge_detection_gaussian_smoothing_filter
+R1
+!i10b 1
+!s100 iWfFlmZOJ_akeJLZ4f?4Q0
+R2
+Ia^[25eoP4cE`<En3LVKQO1
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_gaussian_smoothing_filter.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_gaussian_smoothing_filter.v
+!i122 59
+L0 23 274
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_gaussian_smoothing_filter.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_gaussian_smoothing_filter.v|-work|edge_detector|
+!i113 1
+R7
+R8
+valtera_up_edge_detection_hysteresis
+R1
+!i10b 1
+!s100 `8WQ66Cd?z_JRLWngRKBI2
+R2
+I;KniB@h9oeoIkJc5P4GUb0
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_hysteresis.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_hysteresis.v
+!i122 62
+L0 23 149
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_hysteresis.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_hysteresis.v|-work|edge_detector|
+!i113 1
+R7
+R8
+valtera_up_edge_detection_nonmaximum_suppression
+R1
+!i10b 1
+!s100 >>bfn^em_S03CSdC:Qj[T0
+R2
+Icgendj6>7jZK@k@C^[iBQ1
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_nonmaximum_suppression.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_nonmaximum_suppression.v
+!i122 61
+L0 22 195
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_nonmaximum_suppression.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_nonmaximum_suppression.v|-work|edge_detector|
+!i113 1
+R7
+R8
+valtera_up_edge_detection_pixel_info_shift_register
+R1
+!i10b 1
+!s100 zY?An8fTcFZO9XDY98HBN2
+R2
+IDJkYX1jV0F1]PQL^>F@910
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_pixel_info_shift_register.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_pixel_info_shift_register.v
+!i122 63
+L0 52 34
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_pixel_info_shift_register.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_pixel_info_shift_register.v|-work|edge_detector|
+!i113 1
+R7
+R8
+valtera_up_edge_detection_sobel_operator
+R1
+!i10b 1
+!s100 25cj=S`NYPIG9bhO4FgOF3
+R2
+I^;4MBDLmA2mjG^00d[YA]2
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_sobel_operator.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_sobel_operator.v
+!i122 60
+L0 23 225
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_sobel_operator.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_up_edge_detection_sobel_operator.v|-work|edge_detector|
+!i113 1
+R7
+R8
+vIntegracaoPlatformDesigner_edge_detector
+!s110 1657657252
+!i10b 1
+!s100 aFe:Om8_Qm[n]0m20<FK10
+R2
+IHd<=YajzidBiQRil1HXlR0
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_edge_detector.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_edge_detector.v
+!i122 65
+L0 29 258
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_edge_detector.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_edge_detector.v|-work|edge_detector|
+!i113 1
+R7
+R8
+n@integracao@platform@designer_edge_detector

@@ -1,0 +1,611 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+vIntegracaoPlatformDesigner_nios_cpu
+Z1 !s110 1657657248
+!i10b 1
+!s100 7]TkVEjLRR4iAI>BHn[@e3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]_365`8:73jCW5zCK7g300
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1657650779
+Z5 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu.v
+Z6 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu.v
+!i122 50
+L0 2834 2824
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1657657248.000000
+Z9 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu.v|
+Z10 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu.v|-work|cpu|
+!i113 1
+Z11 o-work cpu
+Z12 tCvgOpt 0
+n@integracao@platform@designer_nios_cpu
+vIntegracaoPlatformDesigner_nios_cpu_debug_slave_sysclk
+R1
+!i10b 1
+!s100 DeBfg9I`j0YM8blHbXR4T3
+R2
+IQ;=?`;WHc>B0IU>BjkHiR0
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_sysclk.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_sysclk.v
+!i122 51
+L0 21 141
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_debug_slave_sysclk
+vIntegracaoPlatformDesigner_nios_cpu_debug_slave_tck
+R1
+!i10b 1
+!s100 7kWMIjagd1jhDD<aH6MaB1
+R2
+IFmF8:>RR2cAZ767ZI:TP10
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_tck.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_tck.v
+!i122 52
+L0 21 218
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_debug_slave_tck
+vIntegracaoPlatformDesigner_nios_cpu_debug_slave_wrapper
+R1
+!i10b 1
+!s100 FJoH63`bY?BgZ7O@6Q]dc0
+R2
+Izh>OD7a^226T7GMb9^6CU2
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_wrapper.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_wrapper.v
+!i122 53
+L0 21 201
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_debug_slave_wrapper
+vIntegracaoPlatformDesigner_nios_cpu_nios2_avalon_reg
+R1
+!i10b 1
+!s100 RQ^keK`J;UkS8OWEnFiKP1
+R2
+IRFh?=KH_mogQ3hGemTFBN1
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 2023 83
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_avalon_reg
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci
+R1
+!i10b 1
+!s100 ]@blT0n@XHO1i=8`@F:OG2
+R2
+I=b[@m5dN;`:c70UQB]^`f1
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 2362 462
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_break
+R1
+!i10b 1
+!s100 1AG>6jEAJFQ84dzgUAO;63
+R2
+INC`QNHEXnMKCY2;c943JS2
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 295 283
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_break
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_compute_input_tm_cnt
+R1
+!i10b 1
+!s100 ]:OKoJBP2ImDCHblJ5djf2
+R2
+IGCLPAOeK4K=j2J:2He8Nc2
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 1265 62
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_compute_input_tm_cnt
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_dbrk
+R1
+!i10b 1
+!s100 [k8BF8?Vd>RhJm>Sllckz1
+R2
+I2emF4gV<B<UQbSacAUD543
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 795 177
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_dbrk
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_debug
+R1
+!i10b 1
+!s100 `m8;_XTLVS5Y6L`<9hOQZ1
+R2
+IMi7Ib`JePeNfKC39nH3Je2
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 153 132
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_debug
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_dtrace
+R1
+!i10b 1
+!s100 ozk``a;c3zg_c`MFU>3oV3
+R2
+IQmXB?_ZQNRN?01ff19AX10
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 1183 72
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_dtrace
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_fifo
+R1
+!i10b 1
+!s100 e>o1HCm32aH`5K_^aR54M1
+R2
+I:anLVkX=JZ96?Z[MSZ5ME3
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 1427 476
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_fifo
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_fifo_cnt_inc
+R1
+!i10b 1
+!s100 bX9ZDkNC:jcAHMg<5:oGR0
+R2
+IYH`Z6aZSWJSez;o^_K=;m3
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 1380 37
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_fifo_cnt_inc
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_fifo_wrptr_inc
+R1
+!i10b 1
+!s100 AHWB^0aY[Q^B17]]lDlT;3
+R2
+IZiJ5XB35DUC8`fkkhSG0o2
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 1337 33
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_fifo_wrptr_inc
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_im
+R1
+!i10b 1
+!s100 fz01^Bh_jBb6gePP=f;jB0
+R2
+IbOU]]Sj[;<Qk4@BhKi^bB2
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 1936 60
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_im
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_itrace
+R1
+!i10b 1
+!s100 fga4IWkg]TC@jON99g6e02
+R2
+I4<oD?71lGHTiL?bFCMHCO0
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 982 123
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_itrace
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_pib
+R1
+!i10b 1
+!s100 Y[DgSdhnTfPV?STJ9P@7i0
+R2
+I73B[h@jCKQb?ZVmQ[S^mW0
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 1913 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_pib
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_td_mode
+R1
+!i10b 1
+!s100 DU=`OH1:3NN2Tf[bEgJ?E1
+R2
+I98aWlLoF`fY:deiomWWU:1
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 1115 58
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_td_mode
+vIntegracaoPlatformDesigner_nios_cpu_nios2_oci_xbrk
+R1
+!i10b 1
+!s100 =jdhIB:0dKSE^kVU]97Az0
+R2
+IUP04<ZRh2;Zf@]ROmI`:b1
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 588 197
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_oci_xbrk
+vIntegracaoPlatformDesigner_nios_cpu_nios2_ocimem
+R1
+!i10b 1
+!s100 b^IBiNNI_4oJ3IOgHd=mU3
+R2
+IPha7e4X`RTeSFn8G?67R50
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 2181 171
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_ocimem
+vIntegracaoPlatformDesigner_nios_cpu_nios2_performance_monitors
+R1
+!i10b 1
+!s100 3K[CK1^deO9_Wb4KzUi5F0
+R2
+I6g_HVNH4?=BWN6GYb_5Dd0
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 2006 7
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_nios2_performance_monitors
+vIntegracaoPlatformDesigner_nios_cpu_ociram_sp_ram_module
+R1
+!i10b 1
+!s100 golaBK?>Uk5D=>a_CKQ3:1
+R2
+IZ^SAB^2kN<E4>7DAPSMWj2
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 2116 55
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_ociram_sp_ram_module
+vIntegracaoPlatformDesigner_nios_cpu_register_bank_a_module
+R1
+!i10b 1
+!s100 j[=zOVC_^iH]LoNVznLE?3
+R2
+IG65d[k4Vj0c?ebEn>11P@1
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 21 56
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_register_bank_a_module
+vIntegracaoPlatformDesigner_nios_cpu_register_bank_b_module
+R1
+!i10b 1
+!s100 PTQLOl]]UYK2R<P@T;cMo2
+R2
+I2BL?=DfzhbmY`[4bVN=lU3
+R3
+R0
+R4
+R5
+R6
+!i122 50
+L0 87 56
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_register_bank_b_module
+vIntegracaoPlatformDesigner_nios_cpu_test_bench
+R1
+!i10b 1
+!s100 <@K7n9_8>BfVm^UZ0Vl263
+R2
+IPmGDZkge4@n<n7zHj1cA52
+R3
+R0
+R4
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_test_bench.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_test_bench.v
+!i122 54
+L0 21 635
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_test_bench.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_nios_cpu_test_bench.v|-work|cpu|
+!i113 1
+R11
+R12
+n@integracao@platform@designer_nios_cpu_test_bench

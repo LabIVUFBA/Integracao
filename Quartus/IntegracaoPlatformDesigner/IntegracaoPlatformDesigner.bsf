@@ -1,0 +1,237 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 480 552)
+	(text "IntegracaoPlatformDesigner" (rect 159 -1 269 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 536 20 548)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 192 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 101 82 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 192 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "sram_conduit_cdt_write" (rect 0 0 95 12)(font "Arial" (font_size 8)))
+		(text "sram_conduit_cdt_write" (rect 4 141 136 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 192 152)(line_width 1))
+	)
+	(port
+		(pt 0 168)
+		(input)
+		(text "sram_conduit_cdt_chipselect" (rect 0 0 115 12)(font "Arial" (font_size 8)))
+		(text "sram_conduit_cdt_chipselect" (rect 4 157 166 168)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 192 168)(line_width 1))
+	)
+	(port
+		(pt 0 184)
+		(input)
+		(text "sram_conduit_cdt_outputenable" (rect 0 0 126 12)(font "Arial" (font_size 8)))
+		(text "sram_conduit_cdt_outputenable" (rect 4 173 178 184)(font "Arial" (font_size 8)))
+		(line (pt 0 184)(pt 192 184)(line_width 1))
+	)
+	(port
+		(pt 0 200)
+		(input)
+		(text "sram_conduit_cdt_address[19..0]" (rect 0 0 133 12)(font "Arial" (font_size 8)))
+		(text "sram_conduit_cdt_address[19..0]" (rect 4 189 190 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 192 200)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "sram_conduit_cdt_byteenable[1..0]" (rect 0 0 139 12)(font "Arial" (font_size 8)))
+		(text "sram_conduit_cdt_byteenable[1..0]" (rect 4 221 202 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 192 232)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(output)
+		(text "sram_controller_conduit_ADDR[19..0]" (rect 0 0 155 12)(font "Arial" (font_size 8)))
+		(text "sram_controller_conduit_ADDR[19..0]" (rect 4 277 214 288)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 192 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(output)
+		(text "sram_controller_conduit_LB_N" (rect 0 0 126 12)(font "Arial" (font_size 8)))
+		(text "sram_controller_conduit_LB_N" (rect 4 293 172 304)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 192 304)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(output)
+		(text "sram_controller_conduit_UB_N" (rect 0 0 127 12)(font "Arial" (font_size 8)))
+		(text "sram_controller_conduit_UB_N" (rect 4 309 172 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 192 320)(line_width 1))
+	)
+	(port
+		(pt 0 336)
+		(output)
+		(text "sram_controller_conduit_CE_N" (rect 0 0 128 12)(font "Arial" (font_size 8)))
+		(text "sram_controller_conduit_CE_N" (rect 4 325 172 336)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 192 336)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(output)
+		(text "sram_controller_conduit_OE_N" (rect 0 0 128 12)(font "Arial" (font_size 8)))
+		(text "sram_controller_conduit_OE_N" (rect 4 341 172 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 192 352)(line_width 1))
+	)
+	(port
+		(pt 0 368)
+		(output)
+		(text "sram_controller_conduit_WE_N" (rect 0 0 132 12)(font "Arial" (font_size 8)))
+		(text "sram_controller_conduit_WE_N" (rect 4 357 172 368)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 192 368)(line_width 1))
+	)
+	(port
+		(pt 0 408)
+		(output)
+		(text "vga_conduit_CLK" (rect 0 0 74 12)(font "Arial" (font_size 8)))
+		(text "vga_conduit_CLK" (rect 4 397 94 408)(font "Arial" (font_size 8)))
+		(line (pt 0 408)(pt 192 408)(line_width 1))
+	)
+	(port
+		(pt 0 424)
+		(output)
+		(text "vga_conduit_HS" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "vga_conduit_HS" (rect 4 413 88 424)(font "Arial" (font_size 8)))
+		(line (pt 0 424)(pt 192 424)(line_width 1))
+	)
+	(port
+		(pt 0 440)
+		(output)
+		(text "vga_conduit_VS" (rect 0 0 68 12)(font "Arial" (font_size 8)))
+		(text "vga_conduit_VS" (rect 4 429 88 440)(font "Arial" (font_size 8)))
+		(line (pt 0 440)(pt 192 440)(line_width 1))
+	)
+	(port
+		(pt 0 456)
+		(output)
+		(text "vga_conduit_BLANK" (rect 0 0 88 12)(font "Arial" (font_size 8)))
+		(text "vga_conduit_BLANK" (rect 4 445 106 456)(font "Arial" (font_size 8)))
+		(line (pt 0 456)(pt 192 456)(line_width 1))
+	)
+	(port
+		(pt 0 472)
+		(output)
+		(text "vga_conduit_SYNC" (rect 0 0 81 12)(font "Arial" (font_size 8)))
+		(text "vga_conduit_SYNC" (rect 4 461 100 472)(font "Arial" (font_size 8)))
+		(line (pt 0 472)(pt 192 472)(line_width 1))
+	)
+	(port
+		(pt 0 488)
+		(output)
+		(text "vga_conduit_R[7..0]" (rect 0 0 82 12)(font "Arial" (font_size 8)))
+		(text "vga_conduit_R[7..0]" (rect 4 477 118 488)(font "Arial" (font_size 8)))
+		(line (pt 0 488)(pt 192 488)(line_width 3))
+	)
+	(port
+		(pt 0 504)
+		(output)
+		(text "vga_conduit_G[7..0]" (rect 0 0 81 12)(font "Arial" (font_size 8)))
+		(text "vga_conduit_G[7..0]" (rect 4 493 118 504)(font "Arial" (font_size 8)))
+		(line (pt 0 504)(pt 192 504)(line_width 3))
+	)
+	(port
+		(pt 0 520)
+		(output)
+		(text "vga_conduit_B[7..0]" (rect 0 0 80 12)(font "Arial" (font_size 8)))
+		(text "vga_conduit_B[7..0]" (rect 4 509 118 520)(font "Arial" (font_size 8)))
+		(line (pt 0 520)(pt 192 520)(line_width 3))
+	)
+	(port
+		(pt 0 216)
+		(bidir)
+		(text "sram_conduit_cdt_data_io[15..0]" (rect 0 0 129 12)(font "Arial" (font_size 8)))
+		(text "sram_conduit_cdt_data_io[15..0]" (rect 4 205 190 216)(font "Arial" (font_size 8)))
+		(line (pt 0 216)(pt 192 216)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(bidir)
+		(text "sram_controller_conduit_DQ[15..0]" (rect 0 0 139 12)(font "Arial" (font_size 8)))
+		(text "sram_controller_conduit_DQ[15..0]" (rect 4 261 202 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 192 272)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 177 43 372 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 197 67 412 144)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 163 83 356 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 197 107 436 224)(font "Arial" (color 0 0 0)))
+		(text "sram_conduit" (rect 114 123 300 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "cdt_write" (rect 197 147 448 304)(font "Arial" (color 0 0 0)))
+		(text "cdt_chipselect" (rect 197 163 478 336)(font "Arial" (color 0 0 0)))
+		(text "cdt_outputenable" (rect 197 179 490 368)(font "Arial" (color 0 0 0)))
+		(text "cdt_address" (rect 197 195 460 400)(font "Arial" (color 0 0 0)))
+		(text "cdt_data_io" (rect 197 211 460 432)(font "Arial" (color 0 0 0)))
+		(text "cdt_byteenable" (rect 197 227 478 464)(font "Arial" (color 0 0 0)))
+		(text "sram_controller_conduit" (rect 52 243 242 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "DQ" (rect 197 267 406 544)(font "Arial" (color 0 0 0)))
+		(text "ADDR" (rect 197 283 418 576)(font "Arial" (color 0 0 0)))
+		(text "LB_N" (rect 197 299 418 608)(font "Arial" (color 0 0 0)))
+		(text "UB_N" (rect 197 315 418 640)(font "Arial" (color 0 0 0)))
+		(text "CE_N" (rect 197 331 418 672)(font "Arial" (color 0 0 0)))
+		(text "OE_N" (rect 197 347 418 704)(font "Arial" (color 0 0 0)))
+		(text "WE_N" (rect 197 363 418 736)(font "Arial" (color 0 0 0)))
+		(text "vga_conduit" (rect 124 379 314 771)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "CLK" (rect 197 403 412 816)(font "Arial" (color 0 0 0)))
+		(text "HS" (rect 197 419 406 848)(font "Arial" (color 0 0 0)))
+		(text "VS" (rect 197 435 406 880)(font "Arial" (color 0 0 0)))
+		(text "BLANK" (rect 197 451 424 912)(font "Arial" (color 0 0 0)))
+		(text "SYNC" (rect 197 467 418 944)(font "Arial" (color 0 0 0)))
+		(text "R" (rect 197 483 400 976)(font "Arial" (color 0 0 0)))
+		(text "G" (rect 197 499 400 1008)(font "Arial" (color 0 0 0)))
+		(text "B" (rect 197 515 400 1040)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 445 536 938 1082)(font "Arial" ))
+		(line (pt 192 32)(pt 288 32)(line_width 1))
+		(line (pt 288 32)(pt 288 536)(line_width 1))
+		(line (pt 192 536)(pt 288 536)(line_width 1))
+		(line (pt 192 32)(pt 192 536)(line_width 1))
+		(line (pt 193 52)(pt 193 76)(line_width 1))
+		(line (pt 194 52)(pt 194 76)(line_width 1))
+		(line (pt 193 92)(pt 193 116)(line_width 1))
+		(line (pt 194 92)(pt 194 116)(line_width 1))
+		(line (pt 193 132)(pt 193 236)(line_width 1))
+		(line (pt 194 132)(pt 194 236)(line_width 1))
+		(line (pt 193 252)(pt 193 372)(line_width 1))
+		(line (pt 194 252)(pt 194 372)(line_width 1))
+		(line (pt 193 388)(pt 193 524)(line_width 1))
+		(line (pt 194 388)(pt 194 524)(line_width 1))
+		(line (pt 0 0)(pt 480 0)(line_width 1))
+		(line (pt 480 0)(pt 480 552)(line_width 1))
+		(line (pt 0 552)(pt 480 552)(line_width 1))
+		(line (pt 0 0)(pt 0 552)(line_width 1))
+	)
+)

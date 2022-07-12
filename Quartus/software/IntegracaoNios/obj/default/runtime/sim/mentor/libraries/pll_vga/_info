@@ -1,0 +1,79 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+Eintegracaoplatformdesigner_pll_vga
+Z1 w1657646397
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_pll_vga.vhd
+Z6 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_pll_vga.vhd
+l0
+L12 1
+V_=kWm>[ZPZ:KbjaAUQ0]>1
+!s100 X^Q`=KVjH2Cm:6fdB0UN11
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1657647038
+!i10b 1
+Z9 !s108 1657647038.000000
+Z10 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_pll_vga.vhd|-work|pll_vga|
+Z11 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_pll_vga.vhd|
+!i113 1
+Z12 o-work pll_vga
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 34 integracaoplatformdesigner_pll_vga 0 22 _=kWm>[ZPZ:KbjaAUQ0]>1
+!i122 0
+l52
+L21 60
+VHXWzQSNI_ozOiUQCmK9_E2
+!s100 8iOEX7zLCJUXJLU7a]jn;1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vIntegracaoPlatformDesigner_pll_vga
+!s110 1657657250
+!i10b 1
+!s100 M]hC]AIfFVM`F@bSc2faO2
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IN?lKDK^7hbgYcog=fT8U20
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657650770
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_pll_vga.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_pll_vga.v
+!i122 10
+L0 9 33
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657657250.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_pll_vga.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_pll_vga.v|-work|pll_vga|
+!i113 1
+R12
+tCvgOpt 0
+n@integracao@platform@designer_pll_vga

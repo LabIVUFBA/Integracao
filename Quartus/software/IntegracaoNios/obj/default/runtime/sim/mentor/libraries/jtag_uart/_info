@@ -1,0 +1,381 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+Eintegracaoplatformdesigner_jtag_uart
+Z1 w1657646396
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx6 altera 25 altera_europa_support_lib 0 22 5o:bO7N_EO8==El25L[7@1
+!i122 0
+R0
+Z8 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.vhd
+Z9 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.vhd
+l0
+L455 1
+V_7TfijZ2;<f>mRSl6mM@[0
+!s100 H6:hM^Pmf=_jRTnKGRkGi3
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1657647038
+!i10b 1
+Z12 !s108 1657647038.000000
+Z13 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.vhd|-work|jtag_uart|
+Z14 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.vhd|
+!i113 1
+Z15 o-work jtag_uart
+Z16 tExplicit 1 CvgOpt 0
+Aeuropa
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 36 integracaoplatformdesigner_jtag_uart 0 22 _7TfijZ2;<f>mRSl6mM@[0
+!i122 0
+l573
+L478 283
+V;AnR?abHi`o2AH5Zd=fN33
+!s100 oOWCo^bY:3>^19?lz8oQW0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+vIntegracaoPlatformDesigner_jtag_uart
+Z17 !s110 1657657250
+!i10b 1
+!s100 4o@g8iHN3o@]zK[ILh2JF3
+Z18 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhkYO@IZ9zU=>E9m6GLTNb3
+Z19 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z20 w1657650768
+Z21 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.v
+Z22 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.v
+!i122 10
+L0 331 257
+Z23 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z24 !s108 1657657250.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.v|
+Z25 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.v|-work|jtag_uart|
+!i113 1
+R15
+Z26 tCvgOpt 0
+n@integracao@platform@designer_jtag_uart
+Eintegracaoplatformdesigner_jtag_uart_scfifo_r
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 0
+R0
+R8
+R9
+l0
+L313 1
+VNL;j1QcQOhz3?F:ZQ3TAd2
+!s100 RIbm?Jg>aHiJCf>1cVgUj1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Aeuropa
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 45 integracaoplatformdesigner_jtag_uart_scfifo_r 0 22 NL;j1QcQOhz3?F:ZQ3TAd2
+!i122 0
+l381
+L332 102
+Vn=7Y4VLlnnCaTX6h^ZP9Y3
+!s100 MW^0:3<73HGaf1LfM`;h01
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+vIntegracaoPlatformDesigner_jtag_uart_scfifo_r
+R17
+!i10b 1
+!s100 ;5K:S;VIbco9fln:]2?oh2
+R18
+IVhO:M4d_e^D=P4BjEA1Y23
+R19
+R0
+R20
+R21
+R22
+!i122 10
+L0 243 78
+R23
+r1
+!s85 0
+31
+R24
+Z27 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_jtag_uart.v|
+R25
+!i113 1
+R15
+R26
+n@integracao@platform@designer_jtag_uart_scfifo_r
+Eintegracaoplatformdesigner_jtag_uart_scfifo_w
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 0
+R0
+R8
+R9
+l0
+L95 1
+VT>XDL:]EV]CeLJ1fLk=XR0
+!s100 R2XRPQ@e:H9]a7dFbf3:A2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Aeuropa
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 45 integracaoplatformdesigner_jtag_uart_scfifo_w 0 22 T>XDL:]EV]CeLJ1fLk=XR0
+!i122 0
+l162
+L113 102
+V3?zmCVjZbI=8dfU^Vl^nX2
+!s100 ]g76D58_Nn<XcOHN^O_ol1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+vIntegracaoPlatformDesigner_jtag_uart_scfifo_w
+R17
+!i10b 1
+!s100 PA;5;:1E`NS8?TKb71<gc2
+R18
+IggVa^ATz7z0>aOU6fYDPX2
+R19
+R0
+R20
+R21
+R22
+!i122 10
+L0 78 76
+R23
+r1
+!s85 0
+31
+R24
+R27
+R25
+!i113 1
+R15
+R26
+n@integracao@platform@designer_jtag_uart_scfifo_w
+Eintegracaoplatformdesigner_jtag_uart_sim_scfifo_r
+R1
+Z28 DPx9 altera_mf 20 altera_mf_components 0 22 ^:alB2MJEEXl;OOBQIDHY2
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 0
+R0
+R8
+R9
+l0
+L233 1
+Vc?ehe37U_>i`VVkT5D]5S2
+!s100 1PPcZVKmEFfP5GN_f2:E73
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Aeuropa
+R28
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 49 integracaoplatformdesigner_jtag_uart_sim_scfifo_r 0 22 c?ehe37U_>i`VVkT5D]5S2
+!i122 0
+l257
+L249 43
+V=eQ=V7C;4aJ;PG@lRKTX01
+!s100 WU?eBPj3=5Wb`i>gi5]Cn1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+vIntegracaoPlatformDesigner_jtag_uart_sim_scfifo_r
+R17
+!i10b 1
+!s100 1Si5^RnSOK:2W:Wj@WkO91
+R18
+I0KhM=[7RYmzKgzRDQXENF2
+R19
+R0
+R20
+R21
+R22
+!i122 10
+L0 164 69
+R23
+r1
+!s85 0
+31
+R24
+R27
+R25
+!i113 1
+R15
+R26
+n@integracao@platform@designer_jtag_uart_sim_scfifo_r
+Eintegracaoplatformdesigner_jtag_uart_sim_scfifo_w
+R1
+R28
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 0
+R0
+R8
+R9
+l0
+L32 1
+V>f8_kzM@KET@Ma`T<`_K@3
+!s100 ngb;<oNm3gWTjlXaGzcif3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Aeuropa
+R28
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 49 integracaoplatformdesigner_jtag_uart_sim_scfifo_w 0 22 >f8_kzM@KET@Ma`T<`_K@3
+!i122 0
+l50
+L48 26
+VUB4EH6<EoVfHb^lXmSU5`0
+!s100 ]XmACzdLYTc]_O`eaNoN40
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+vIntegracaoPlatformDesigner_jtag_uart_sim_scfifo_w
+R17
+!i10b 1
+!s100 S1jWU47APJ`5eC]WMjVoJ1
+R18
+I9HKYhX>T`^5aR>eL692f42
+R19
+R0
+R20
+R21
+R22
+!i122 10
+L0 21 47
+R23
+r1
+!s85 0
+31
+R24
+R27
+R25
+!i113 1
+R15
+R26
+n@integracao@platform@designer_jtag_uart_sim_scfifo_w

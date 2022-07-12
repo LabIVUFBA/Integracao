@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+valtera_conduit_bfm
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+DXx25 altera_common_sv_packages 13 verbosity_pkg 0 22 ZlOCfSe9@9NRFTm]NWLVj2
+!s110 1657657252
+!i10b 1
+!s100 MU]0L`<h:C9PYJWd=:M?e1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I1zODYiBkKX25d85@Y=LW;2
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1657650768
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_conduit_bfm.sv
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_conduit_bfm.sv
+!i122 10
+L0 36 207
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657657252.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_conduit_bfm.sv|
+!s90 -reportprogress|300|-sv|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_conduit_bfm.sv|-L|altera_common_sv_packages|-work|IntegracaoPlatformDesigner_inst_sram_conduit_bfm|
+!i113 1
+o-sv -L altera_common_sv_packages -work IntegracaoPlatformDesigner_inst_sram_conduit_bfm
+tCvgOpt 0
+Paltera_conduit_bfm_vhdl_pkg
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 w1657646395
+R0
+Z4 8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_conduit_bfm_vhdl_pkg.vhd
+Z5 FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_conduit_bfm_vhdl_pkg.vhd
+l0
+L47 1
+VdZzlT65gF>0Bz`<RQEeMQ2
+!s100 QRfcS`EoTB`SW0TME@gmc0
+Z6 OV;C;2020.1;71
+32
+b1
+Z7 !s110 1657647039
+!i10b 1
+Z8 !s108 1657647039.000000
+Z9 !s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_conduit_bfm_vhdl_pkg.vhd|-work|IntegracaoPlatformDesigner_inst_sram_conduit_bfm|
+Z10 !s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/altera_conduit_bfm_vhdl_pkg.vhd|
+!i113 1
+Z11 o-work IntegracaoPlatformDesigner_inst_sram_conduit_bfm
+Z12 tExplicit 1 CvgOpt 0
+Bbody
+DPx4 work 27 altera_conduit_bfm_vhdl_pkg 0 22 dZzlT65gF>0Bz`<RQEeMQ2
+R1
+R2
+!i122 0
+l0
+L97 1
+Vk6c7m;nX8<V4YzCUloNE32
+!s100 4[IUnRk>b:5kHC31@hloN1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

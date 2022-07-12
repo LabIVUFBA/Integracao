@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+vIntegracaoPlatformDesigner_vga_resample
+!s110 1657657249
+!i10b 1
+!s100 XloRd5U4=ROA;KkYfg[kd2
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+Io0`o`PO2E_3XIQ5Z[7^OD1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657650770
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_vga_resample.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_vga_resample.v
+!i122 9
+L0 28 170
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657657249.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_vga_resample.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_vga_resample.v|-work|vga_resample|
+!i113 1
+o-work vga_resample
+tCvgOpt 0
+n@integracao@platform@designer_vga_resample

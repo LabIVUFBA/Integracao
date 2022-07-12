@@ -1,0 +1,9 @@
+17:20:22 **** Incremental Build of configuration Nios II for project IntegracaoNios ****
+wsl make all 
+Info: Building /mnt/c/LABIV/Integracao/Quartus/software/IntegracaoNios_bsp/
+make --no-print-directory -C /mnt/c/LABIV/Integracao/Quartus/software/IntegracaoNios_bsp/
+[BSP build complete]
+[IntegracaoNios build complete]
+
+17:20:23 Build Finished (took 1s.315ms)
+

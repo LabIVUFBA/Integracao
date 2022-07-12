@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+vIntegracaoPlatformDesigner_resample_1bit
+!s110 1657657250
+!i10b 1
+!s100 ;8?8C^F1NN_H:Ld>8QC_80
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IOM8UJ1]KL3DJ<B_j]2d0:1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657656734
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_resample_1bit.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_resample_1bit.v
+!i122 7
+L0 28 168
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657657250.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_resample_1bit.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_resample_1bit.v|-work|resample_1bit|
+!i113 1
+o-work resample_1bit
+tCvgOpt 0
+n@integracao@platform@designer_resample_1bit

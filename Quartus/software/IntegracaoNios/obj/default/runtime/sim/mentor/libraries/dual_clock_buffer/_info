@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LABIV/Integracao/Quartus/software/IntegracaoNios/obj/default/runtime/sim/mentor
+vIntegracaoPlatformDesigner_dual_clock_buffer
+!s110 1657657252
+!i10b 1
+!s100 Q7f9f@dZ4:Mb0ck75lJ7G3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I@Z5hf0mLBK5>YIjgg`SK62
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657650768
+8C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_dual_clock_buffer.v
+FC:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_dual_clock_buffer.v
+!i122 8
+L0 29 142
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657657252.000000
+!s107 C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_dual_clock_buffer.v|
+!s90 -reportprogress|300|C:/LABIV/Integracao/Quartus/IntegracaoPlatformDesigner/testbench/IntegracaoPlatformDesigner_tb/simulation/submodules/IntegracaoPlatformDesigner_dual_clock_buffer.v|-work|dual_clock_buffer|
+!i113 1
+o-work dual_clock_buffer
+tCvgOpt 0
+n@integracao@platform@designer_dual_clock_buffer
