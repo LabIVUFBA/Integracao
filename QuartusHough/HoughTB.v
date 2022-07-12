@@ -7,7 +7,7 @@ wire[9:0] x_address;
 wire[8:0] y_address;
 wire[7:0] theta;
 wire write_enable, ready;
-wire[10:0] address;
+wire signed[10:0] address;
 wire[8:0] current_state, next_state;
 reg[239:0] data;
 reg valid;
@@ -57,17 +57,6 @@ end
 
 initial
 begin
-    #1000//Incrementando o contador de theta toda vez que theta é modificado
-    count_x = 0;
-	repeat (10000000)
-	begin
-		@(x_address)
-			count_x = count_x + 1;
-	end
-end
-
-initial
-begin
     #1000
     //Incrementando o contador de theta toda vez que theta é modificado
     count_theta = 0;
@@ -80,7 +69,18 @@ end
 
 initial
 begin
-    //Incrementando o contador de theta toda vez que theta é modificado
+    #1000//Incrementando o contador de x toda vez que x é modificado
+    count_x = 0;
+	repeat (10000000)
+	begin
+		@(x_address)
+			count_x = count_x + 1;
+	end
+end
+
+initial
+begin
+    //Incrementando o contador de y toda vez que y é modificado
     #1000
     count_y = 0;
 	repeat (10000000)
@@ -90,23 +90,10 @@ begin
 	end
 end
 
-initial
-begin
-    //Incrementando o contador de wren toda vez que wren é modificado
-    count_write_enable = 0;
-	repeat (10000000)
-	begin
-		@(posedge write_enable)
-			count_write_enable = count_write_enable + 1;
-	end
-end
-
 
 initial
 begin
 	#300000000
-    $display("\n------------ count_write_enable: ------------\n"); 
-    $display(count_write_enable);
     $display("\n------------ count_theta: ------------\n"); 
     $display(count_theta);
     $display("\n------------ count_x: ------------\n"); 
