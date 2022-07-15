@@ -40,6 +40,7 @@ reset = 1;
 valid = 0;
 
 // DEFININDO QUE A CADA FRAME DE 240 PIXELS, SOMENTE 3 PIXELS DE BORDA SERÃO ENCONTRADOS!
+// DESSA FORMA, TEREMOS UM TOTAL DE 640*2*3 = 3840 PIXELS DE BORDA
 data = 10'b1001001000;
 #10 clock = 1;
 #10 clock = 0;
@@ -58,7 +59,7 @@ end
 initial
 begin
     #1000
-    //Incrementando o contador de theta toda vez que theta é modificado
+    //Incrementando o contador de theta toda vez que theta chega a 179
     count_theta = 0;
 	repeat (10000000)
 	begin
@@ -111,6 +112,12 @@ begin
     if (count_y > 480)
     begin
         $display("\n------------ A quantidade de valores de Y percorridos não está condizente com 640*480!  ------------\n"); 
+        $stop;
+    end
+
+	if (count_theta > 691200)
+    begin
+        $display("\n------------ A quantidade de valores de theta percorridos não está condizente com 640*2*3*180!  ------------\n"); 
         $stop;
     end
 

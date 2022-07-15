@@ -9,15 +9,15 @@ output reg[7:0] theta;
 output reg write_enable, ready;
 output reg signed[10:0] address; // endereço de 11 bits = 2048 possíveis valores para representar os 1600 possíveis valores de rho
 output reg[8:0] current_state, next_state;
-reg[7:0] i;
 output reg[18:0] count_frames; //contagem das 307200 posições da matriz de dados que vão ser recebidos da interface avalon
 reg edge_detection_data [0:307199];
+reg[7:0] i;
 
 parameter 
 	idle_state = 9'b000000001,
+	receive_data = 9'b000001000,
 	check_value = 9'b000000010,
 	calculate_hough = 9'b000000100,
-	receive_data = 9'b000001000,
 	accumulate = 9'b000010000,
 	increase_theta = 9'b000100000,
 	increase_y = 9'b001000000,
