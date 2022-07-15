@@ -123,11 +123,11 @@ begin
 				end
 			calculate_hough: 
 				begin
+					address <= hough_result + max_rho;
 					ready <= 0;
 				end
 			accumulate: 
 				begin
-					address <= hough_result + max_rho;
 					write_enable <= 1;
 				end
 			increase_y:
